@@ -1,0 +1,108 @@
+#contenedor {
+	width: 950px;
+	height:auto;
+	margin:auto;
+}
+
+#encabezado {
+background-image: url(img/fotito.png);
+height: 200px;
+box-shadow: 26px 10px 20px 0px rgba(77,58,41,0.75);
+-webkit-box-shadow: 26px 10px 20px 0px rgba(77,58,41,0.75);
+-moz-box-shadow: 26px 10px 20px 0px rgba(77,58,41,0.75);
+}
+
+#botonera {
+	background-color:#fda571;
+	height: 40px;
+}
+
+#botonera ul {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	background: #f7b47c;
+background: linear-gradient(90deg,#f7b47c 0%, #e4a980 80%);
+background: -webkit-linear-gradient(90deg,#f7b47c 0%, #e4a980 80%);
+background: -moz-linear-gradient(90deg,#f7b47c 0%, #e4a980 80%);
+}
+
+#botonera ul li {	
+	list-style-type: none;
+}
+
+#botonera ul li a {
+	font-size:18px;
+	font-weight: bold;
+	color: white;
+	text-decoration:none;
+	background: #f7b47c;
+	background: linear-gradient(90deg,#f7b47c 0%, #e4a980 80%);
+	background: -webkit-linear-gradient(90deg,#f7b47c 0%, #e4a980 80%);
+	background: -moz-linear-gradient(90deg,#f7b47c 0%, #e4a980 80%);
+}
+
+#centro  {
+	height: 1100px;
+	padding: 0 20px;
+	background-color:#ebdfc5;
+}
+
+#caja1 {
+	width:550px;
+	height:460px;
+	margin:auto;
+	float: left;
+	
+}
+
+#caja2 {
+	width:311px;
+	padding: 0 10px;
+	height:910px;
+	margin:7;
+	float: right;
+
+}
+p{
+  font-family: "Imperial Script", cursive;
+	font-size:28px;
+	color:#8f623d
+}
+
+h1, h2 {
+	font-weight:normal;
+}
+
+h1 {
+	  font-family: "Imperial Script", cursive;
+		color:#fda571;
+		font-size:40px;
+}
+
+
+h2 {
+	  font-family: "Carattere", cursive;
+		color:#8f623d;
+		font-size:28px;
+}
+
+body {
+	background-image: url(img/nubes.jpg);
+}
+
+h3 {
+	 font-family: "Imperial Script", cursive;
+		color:#d4a372;
+		font-size:28px;
+		font-weight:normal;
+}
+
+iframe {
+	border:5px solid #f7b47c;
+}
